@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #e0dcd3;
+    position: sticky;
+}
+
+#logo {
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(150, 44, 44);
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 28px;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    margin: 10px;
+    margin-right: 25px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+li {
+    background-color: rgb(248, 107, 56);
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    ;
+}
+
+li:hover {
+    background-color: rgb(213, 139, 201);
+}
+
+a:hover{
+    color: white;
+}
+
+
+#icon1{
+    font-size: 40px;
+    color: #00acee;
+    margin-left: 3cm;
+}
+
+#icon2{
+    font-size: 40px;
+    margin-left: 6cm;
+    color: #7315C6;
+}
+
+#icon3{
+    font-size: 40px;
+    color: #0077B5;
+    margin-left: 3cm
+}
+
+#divp{
+    width: 12cm;
+    height: 5cm;
+    background-color: #a28cb5;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    border: 3px solid black;
+    border-radius: 5px;
+    float: left;
+}
+
+.form{
+    width: 13cm;
+    height: 18cm;
+    border: 2px solid  darkred;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-left: 15cm;
+    margin-top: 1cm;
+    float: left;
+    margin-left: 11cm;
+}
+
+#iletisimformu{
+    margin-top: 1cm;
+    font-family: 'Unbounded', cursive;
+    margin-left: 5px;
+    overflow: auto;
+}
+
+#button{
+    width: 1.7cm;
+    height: 0.7cm;
+    margin-bottom: 1cm;
+    border-radius: 10px;
+    background-color: darkred;
+    color: white;
+}
+
+#firstname{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#lastname{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#email{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#reason{
+    border: 1px dotted black;
+}
+
+#message{
+    width: 5cm;
+    height: 3cm;
+    border: 1px solid black;
+    nav-down: auto;
+}
+
+#button:hover{
+    background-color: rgba(139, 0, 0, 0.681);
+    color: white;
+    cursor: pointer;
+}
+
+#reason:hover{
+    background-color: rgb(207, 207, 207);
+    box-shadow: inset;
+}
+
+

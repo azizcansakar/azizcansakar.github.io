@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <link rel="shortcut icon" href="man-with-laptop.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="anasayfa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+    <nav>
+        <a id="logo">AZİZCAN SAKAR</a>
+        <a href="https://www.instagram.com/azizcansakar00/" target="_blank" id="icon2"><i
+                class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/AzizcanSakar2" target="_blank" id="icon1"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/azizcan-sakar-b2026b24b/" target="_blank" id="icon3"><i
+                class="fa-brands fa-linkedin"></i></a>
+        <ul>
+            <li id="anali"> <a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Projelerim</a></li>
+            <li><a href="#">Hizmetler</a></li>
+        </ul>
+    </nav>
+
+    <div id="divp">
+
+
+        <h1 style="font-family: 'Unbounded', cursive; text-align: center;">
+            Ben Kimim?
+        </h1>
+        <br><br>
+        <p style="font-size: large; font-family: 'Montserrat', sans-serif; margin-left: 7px; margin-right: 2px; color: rgb(33, 33, 33);
+        ">
+            Ben Azizcan Sakar. Bu site benim ilk websitem. Bu sitede projelerimi paylaşıyorum, iş anlaşmaları yapıyorum
+            ve neler yaptığımdan bahsediyorum. <br> Benimle sağ taraftaki formdan iletişime geçebilirsiniz.
+        </p>
+
+
+    </div>
+
+    <div class="form">
+        <h1
+            style="margin-left: 3.2cm; margin-top: 1cm; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            İletişim Formu</h1>
+        <form id="iletisimformu">
+
+            <p>
+                Ad: <input type="text" name="ad" id="firstname">
+            </p> <br><br>
+
+            <p>
+                Soyad: <input type="text" name="soyad" id="lastname">
+            </p><br><br>
+
+            <p>
+                E-Postanız: <input type="email" name="email" id="email">
+            </p><br><br>
+
+            <p>
+                Cinsiyetiniz: <br>
+                Erkek: <input type="radio" name="cinsiyet" id="male">
+                Kadın <input type="radio" name="cinsiyet" id="female">
+            </p><br><br>
+
+            <p>
+                İletişim Sebebiniz: <br>
+                <select name="iletisim" id="reason">
+                    <option>Seçiniz</option>
+                    <option>İstek Ve Eleştiri</option>
+                    <option>Şikayet</option>
+                    <option>İş Anlaşması</option>
+                </select>
+            </p><br><br>
+
+            <p>
+                Lütfen Mesajınızı Yazın: <br>
+                <textarea name="mesaj" id="message" cols="30" rows="10" maxlength="300"></textarea>
+                <a href="mailto:azizcanokul@gmail.com" target="_blank"><input type="button" value="Gönder" id="button"></a>
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
