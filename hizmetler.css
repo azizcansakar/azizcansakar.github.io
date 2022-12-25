@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(234, 234, 234);
+}
+
+
+.nav1 {
+    width: 100%;
+    height: 3cm;
+    background-color: rgb(248, 239, 239);
+}
+
+.nav1 .logo {
+    text-decoration: none;
+    font-family: "Courier New", cursive;
+    display: inline-flex;
+    margin-left: 2cm;
+    margin-top: 22px;
+    font-size: 50px;
+    color: #060676;
+}
+
+#searchx {
+    margin-right: 3cm;
+    display: inline-block;
+    margin-left: 6.5cm;
+    margin-top: 1cm;
+    width: 6, 5cm;
+    height: 0.7cm;
+    background-color: rgb(243, 243, 243);
+}
+
+#search {
+    width: 6.5cm;
+    border: 2px solid rgb(192, 81, 40);
+    height: 1cm;
+    background-color: rgb(243, 243, 243);
+    font-size: 15px;
+    margin-left: 5px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+#searchicon {
+    position: absolute;
+    margin-left: 5.5cm;
+    margin-top: 0.3cm;
+
+}
+
+#search:hover {
+    border: 2px solid orangered;
+    border-radius: 15px;
+    background-color: rgb(243, 243, 243);
+}
+
+a {
+    text-decoration: none;
+}
+
+#contact {
+    margin-left: 7cm;
+    display: inline-block;
+    margin-left: 7cm;
+    margin-top: 0.5cm;
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 2cm;
+    width: 9cm;
+}
+
+#number {
+    color: rgb(39, 37, 37);
+    margin-left: 5px;
+}
+
+p {
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 2.3cm;
+    word-spacing: 10px;
+}
+
+.nav2 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(25, 140, 25);
+}
+
+.nav2 ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 11.4cm;
+    margin-top: 0.1cm;
+}
+
+li {
+    display: inline-block;
+    margin: 15px;
+    color: #fff;
+}
+
+li a {
+    color: #fff;
+}
+
+.nav3 {
+    width: 100%;
+    height: 2.5cm;
+    background-color: rgb(204, 203, 203);
+}
+
+.nav3>h3 {
+    display: inline-flex;
+    font-family: 'Inconsolata', monospace;
+    margin-left: 17cm;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.nav3 ul {
+    margin-left: 17cm;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: black;
+}
+
+.nav ul li {
+    margin-bottom: 3px;
+}
+
+
+.metinkutusu {
+    width: 12cm;
+    height: 7cm;
+    border: 2px solid rgb(108, 9, 9);
+    display: inline-flex;
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+    margin-top: 1.4cm;
+}
+
+#mk1 {
+    margin-left: 7cm;
+}
+
+#mk1 h1 {
+    margin-left: 2.2cm;
+    margin-top: 5px;
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(195, 0, 39);
+}
+
+#mk1 ol {
+    position: absolute;
+    display: inline-block;
+    margin-top: 1.5cm;
+}
+
+#mk1 ol li {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#mk2 {
+    margin-left: 1cm;
+    position: absolute;
+}
+
+#mk2 h1 {
+    margin-left: 1.55cm;
+    margin-top: 5px;
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(195, 0, 39);
+}
+
+
+#mk2 ol {
+    position: absolute;
+    display: inline-block;
+    margin-top: 1.5cm;
+
+}
+
+#mk2 ol li {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 20px;
+    font-family: monospace;
+
+}
+
+#footer {
+    width: 100%;
+    height: 90px;
+    background-color: #5fcca8;
+    margin-top: 1cm;
+}
+
+.h2b {
+    display: inline-block;
+    font-family: "Courier New", cursive;
+    font-size: 20px;
+    margin-left: 17.48cm;
+    margin-top: 18px;
+}
+
+#iconlar {
+    margin-left: 18.8cm;
+    font-size: 15px;
+    word-spacing: 5px;
+    margin-top: 10px;
+}
